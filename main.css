@@ -48,7 +48,7 @@ img {
 }
 
 .bold {
-    font-weight: bold;
+    font-weight: 900;
 }
 
 /*BASE STYLES */
@@ -186,27 +186,45 @@ footer > * {
     padding: 20px 0;
 }
 
-
 .cart {
     width: 1280px;
-    height: 720px;
+    height: 10em;
 }
 
+.skills-list {
+    box-shadow: 0 1px 3px rgb(60 63 66 / 32%),
+                0 4px 12px rgb(60 63 66 / 15%);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.skills-list > li > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
 
 
+/*.skills-list li {
+    display: inline;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.skills-list > li > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}*/
 
 
 
