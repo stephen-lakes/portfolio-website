@@ -44,7 +44,7 @@ img {
     --clr-text-grey: #757575;
     --clr-body: #333;
     --clr-bg: #ddd;
-    --space: 1rem;
+    --section-spacing: 1rem;
 }
 
 .bold {
@@ -84,9 +84,11 @@ body {
     display: flex;
     margin-left: auto;
     margin-right: 1.25em;
-    border: 1px solid var(--clr-text-grey);
-    border-radius: 5px;
     padding: 6px 9px;
+    border: 0px solid var(--clr-text-grey);
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgb(60 63 66 / 32%),
+                0 4px 12px rgb(60 63 66 / 15%);
 }
 .menu {
     justify-content: center;
@@ -154,8 +156,19 @@ header {
     margin-right: 10px;
 
 }
+
+.github:hover {
+    box-shadow: 0 1px 3px rgb(60 63 66 / 32%),
+                0 4px 12px rgb(60 63 66 / 15%);
+}
+
+.live-prewiew:hover {
+    box-shadow: 0 1px 3px rgb(60 63 66 / 32%),
+                0 4px 12px rgb(60 63 66 / 15%);
+}
+
 .card-footer .github {
-    background-color: var(--clr-primary-orange);
+    background-color: var(--clr-primary-blue);
     border-radius: 30px;
     padding: 0.5em 1em;
 }
@@ -170,21 +183,31 @@ footer > * {
     text-align: center;
 }
 
-.socials > ul{
+.socials > ul {
     color: var(--clr-text-grey);
     display: flex;
     justify-content: space-around;
     padding: 1em 0;
 }
 
-.nav-links-footer > ul > li a{
+.nav-links-footer > ul > li a {
     color: var(--clr-primary-blue);
 }
 
 .copyright {
-    
     padding: 20px 0;
+    margin: 0 auto;
 }
+
+.copyright-floating:hover {
+    border: 0px solid var(--clr-text-grey);
+    box-shadow: 0 1px 3px rgb(60 63 66 / 32%),
+                0 4px 12px rgb(60 63 66 / 15%);
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 .cart {
     width: 1280px;
@@ -207,7 +230,7 @@ footer > * {
 .flex-item {
     flex-basis: 100px;
     flex-grow: 1;
-    flex-shrink: 0;
+    flex-shrink: 1;
 }
 
 .skills-list > li > img{
@@ -215,16 +238,8 @@ footer > * {
     height: 100px;
     border-radius: 10px;
 
-
-/*.skills-list li {
-    display: inline;
 }
 
-.skills-list > li > img{
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-}*/
 
 
 
