@@ -68,6 +68,7 @@ body {
     color:var(--clr-primary-blue);
     font-size: 25px;
 }
+
 .brand::before {
     content: "ste";
     color:var(--clr-primary-orange);
@@ -110,6 +111,7 @@ header {
     align-items: center;
     height: 68px;
 }
+
 .brand {
     margin-left: 1.25em;
 }
@@ -121,7 +123,7 @@ header {
     padding: 20px 0;
 }
 
-.card{
+.card {
     padding: 0 10px;
     box-shadow: 0 1px 3px rgb(60 63 66 / 32%),
                 0 4px 12px rgb(60 63 66 / 15%);
@@ -142,6 +144,7 @@ header {
 
 .card-footer {
     margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .card-footer .live-preview a,
@@ -157,12 +160,7 @@ header {
 
 }
 
-.github:hover {
-    box-shadow: 0 1px 3px rgb(60 63 66 / 32%),
-                0 4px 12px rgb(60 63 66 / 15%);
-}
-
-.live-prewiew:hover {
+.card-footer .live-preview:hover {
     box-shadow: 0 1px 3px rgb(60 63 66 / 32%),
                 0 4px 12px rgb(60 63 66 / 15%);
 }
@@ -172,6 +170,13 @@ header {
     border-radius: 30px;
     padding: 0.5em 1em;
 }
+
+.github:hover {
+    box-shadow: 0 1px 3px rgb(60 63 66 / 32%),
+                0 4px 12px rgb(60 63 66 / 15%);
+}
+
+
 
 footer {
     box-shadow: 0 4px 3px rgb(60 63 66 / 15%),
@@ -237,7 +242,6 @@ footer > * {
     width: 100px;
     height: 100px;
     border-radius: 10px;
-
 }
 
 
@@ -249,7 +253,12 @@ footer > * {
 
 
 
+/* 
 
+FEATUES
+.Animate buttons: scale and use box-shadow effects
+
+*/
 
 
 
