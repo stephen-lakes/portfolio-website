@@ -1,4 +1,2 @@
 BUGS
 - live-preview button doesn't hover. {Solved}
--
--
