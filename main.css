@@ -217,11 +217,25 @@ footer > * {
     text-align: center;
 }
 
+.footer-top {
+    display: flex;
+    flex-direction: column;
+}
+
 .socials > ul {
     color: var(--clr-text-grey);
     display: flex;
-    justify-content: space-around;
-    padding: 1em 0;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.flex-item-social:nth-last-of-type(3) {
+    margin-left: 2em;
+}
+
+.socials > ul > li > a {
+    margin-right: 3em;
 }
 
 .nav-links-footer > ul > li a {
@@ -273,6 +287,17 @@ footer > * {
 
 
     
+    
+
+
+    /* Social Icons*/
+    .footer-top {
+        display: flex;
+        flex-direction: row;
+    }
+    .socials {
+        margin-right: auto;
+    }
     
 
 
