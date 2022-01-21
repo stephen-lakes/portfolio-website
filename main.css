@@ -1,3 +1,7 @@
+/*
+https://us06web.zoom.us/w/83864814334?tk=kU5P4832VIp8FYK89lQMS743xQYOQ-68zpFzXn_m2_I.DQMAAAAThruC_hZyZ25SM3k0clNvLVlockVJMVRMb0V3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&pwd=cFFydkhvQUF2QjJicFgyVWdwaDlWdz09
+*/
+
 /* RESET */
 *,
 *::before,
@@ -289,6 +293,16 @@ footer > * {
         margin-left: auto;
     }
 
+
+    /* Main Section (Projects Section) */
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        
+        grid-gap: 10px;
+        border: 2px solid red;
+
+    }
 
     
     
