@@ -308,6 +308,10 @@ footer > * {
         margin-bottom: 0;
     }
 
+    #tools {
+        grid-column: span 2;
+    }
+
 
     /* Social Icons*/
     .footer-top {
