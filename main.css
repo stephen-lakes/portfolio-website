@@ -1,7 +1,3 @@
-/*
-https://us06web.zoom.us/w/83864814334?tk=kU5P4832VIp8FYK89lQMS743xQYOQ-68zpFzXn_m2_I.DQMAAAAThruC_hZyZ25SM3k0clNvLVlockVJMVRMb0V3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&pwd=cFFydkhvQUF2QjJicFgyVWdwaDlWdz09
-*/
-
 /* RESET */
 *,
 *::before,
@@ -34,6 +30,9 @@ p {
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 img {
     max-width: 100%;
     height: 200;
