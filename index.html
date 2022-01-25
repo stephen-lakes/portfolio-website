@@ -8,121 +8,122 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <!-- HEADERS -->
-    <header class="header">
-        <a href="" class="brand">phen</a>
-        <nav class="nav">
-            <ul class="nav-links-top">
-                <li><a href="#">home</a></li>
-                <li><a href="#skills">skills</a></li>
-                <li><a href="#">blog</a></li>
-                <li><a href="about.html">about</a></li>
-                <li><a href="contact.html">contact</a></li>
+    <div class="page-wrapper">
+        <!-- HEADERS -->
+        <header class="header">
+            <a href="index.html" class="brand">phen</a>
+            <nav class="nav">
+                <ul class="nav-links-top">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-toggle-menu">
+                <img src="img/menu.svg" alt="" class="menu">
+            </div>
+        </header>
+
+        <!-- Projects section  -->
+        <main class="content flow" id="projects">
+            <h1 class="section-title bold">Some of my works</h1>
+            <div class="grid-container">
+                <div class="flex-item-card card">
+                    <img src="img/MachineLearning.jpg" alt="">
+                    <p class="card-title">Machine Learning</p>
+                    <p class="card-description">
+                        Machine Learning is one of the most fascinating topics in programming today. It's applications are far reaching and has quickly became an essential attribute for nearly all software projects.
+                    </p>   
+                    <div class="card-footer">
+                        <span class="live-preview"><a href="">live preview</a></span>
+                        <span class="github"><a href="">github</a></span>
+                    </div>
+                </div>
+                <div class="flex-item-card card">
+                    <img src="img/Web-Scraping.jpg" alt="">
+                    <p class="card-title">Web Scrapping</p>
+                    <p class="card-description">                    
+                        The end goal of this course is to scrape blogs to analyze trending keywords and phrases.
+                        We'll be using Python 3.6, Requests, BeautifulSoup, Asyncio, Pandas, Numpy, and more!
+                    </p>
+                    <div class="card-footer">
+                        <span class="live-preview"><a href="">live preview</a></span>
+                        <span class="github"><a href="">github</a></span>
+                    </div>
+                </div>
+                <div class="flex-item-card card">
+                    <img src="img/shopping-cart.jpg" alt="" class="cart">
+                    <p class="card-title">Online Shop</p>
+                    <p class="card-description">
+                        This project uses python on the backend and react on the frontend.
+                        React router is used to manage the urls and links.
+                        Uses Stripe for payment processing.
+                    <div class="card-footer">
+                        <span class="live-preview"><a href="">live preview</a></span>
+                        <span class="github"><a href="">github</a></span>
+                    </div>
+                </div>
+                <div class="flex-item-card card">
+                    <img src="img/video-chatting-website.jpg" alt="">
+                    <p class="card-title">Video Chat</p>
+                    <p class="card-description">
+                        This project uses Django REST Framework on the backend and React on the frontend.
+            Features an innuilt chat section and virtual background for the webcam.
+                    <div class="card-footer">
+                        <span class="live-preview"><a href="">live preview</a></span>
+                        <span class="github"><a href="">github</a></span>
+                    </div>
+                </div>
+                <div id="tools" class="card" id="skills">
+                    Skills like SCRUM, AGILE, etc GOES HERE
+                </div>
+            </div>
+        </main>
+
+        <!-- SKILLS -->
+
+        <section class="content" id="">
+            <h1 class="section-title bold">Languages and Frameworks</h1>
+            <ul class="skills-list">
+                <li class="flex-item"><img src="img/py.jfif" alt=""></li>
+                <li class="flex-item"><img src="img/JS.png" alt=""></li>
+                <li class="flex-item"><img src="img/PSQL.png" alt=""></li>
+                <li class="flex-item"><img src="img/REACT.png" alt=""></li>
+                <li class="flex-item"><img src="img/HTML.png" alt=""></li>
+                <li class="flex-item"><img src="img/CSS.png" alt=""></li>
+                <li class="flex-item"><img src="img/DJ.png" alt=""></li>
             </ul>
-        </nav>
-        <div class="nav-toggle-menu">
-            <img src="img/menu.svg" alt="" class="menu">
-        </div>
-    </header>
-
-    <!-- Projects section  -->
-    <main class="content flow" id="projects">
-        <h1 class="section-title bold">Projects</h1>
-        <div class="grid-container">
-            <div class="flex-item-card card">
-                <img src="img/MachineLearning.jpg" alt="">
-                <p class="card-title">Machine Learning</p>
-                <p class="card-description">
-                    Machine Learning is one of the most fascinating topics in programming today. It's applications are far reaching and has quickly became an essential attribute for nearly all software projects.
-                </p>   
-                <div class="card-footer">
-                    <span class="live-preview"><a href="">live preview</a></span>
-                    <span class="github"><a href="">github</a></span>
-                </div>
-            </div>
-            <div class="flex-item-card card">
-                <img src="img/Web-Scraping.jpg" alt="">
-                <p class="card-title">Web Scrapping</p>
-                <p class="card-description">                    
-                    The end goal of this course is to scrape blogs to analyze trending keywords and phrases.
-                    We'll be using Python 3.6, Requests, BeautifulSoup, Asyncio, Pandas, Numpy, and more!
-                </p>
-                <div class="card-footer">
-                    <span class="live-preview"><a href="">live preview</a></span>
-                    <span class="github"><a href="">github</a></span>
-                </div>
-            </div>
-            <div class="flex-item-card card">
-                <img src="img/shopping-cart.jpg" alt="" class="cart">
-                <p class="card-title">Online Shop</p>
-                <p class="card-description">
-                    This project uses python on the backend and react on the frontend.
-                    React router is used to manage the urls and links.
-                    Uses Stripe for payment processing.
-                <div class="card-footer">
-                    <span class="live-preview"><a href="">live preview</a></span>
-                    <span class="github"><a href="">github</a></span>
-                </div>
-            </div>
-            <div class="flex-item-card card">
-                <img src="img/video-chatting-website.jpg" alt="">
-                <p class="card-title">Video Chat</p>
-                <p class="card-description">
-                    This project uses Django REST Framework on the backend and React on the frontend.
-        Features an innuilt chat section and virtual background for the webcam.
-                <div class="card-footer">
-                    <span class="live-preview"><a href="">live preview</a></span>
-                    <span class="github"><a href="">github</a></span>
-                </div>
-            </div>
-            <div id="tools" class="card">
-                Skills like SCRUM, AGILE, etc GOES HERE
-            </div>
-        </div>
-    </main>
-
-    <!-- SKILLS -->
-
-    <section class="content" id="skills">
-        <h1 class="section-title bold">Tools and Skills</h1>
-        <ul class="skills-list">
-            <li class="flex-item"><img src="img/py.jfif" alt=""></li>
-            <li class="flex-item"><img src="img/JS.png" alt=""></li>
-            <li class="flex-item"><img src="img/PSQL.png" alt=""></li>
-            <li class="flex-item"><img src="img/REACT.png" alt=""></li>
-            <li class="flex-item"><img src="img/HTML.png" alt=""></li>
-            <li class="flex-item"><img src="img/CSS.png" alt=""></li>
-            <li class="flex-item"><img src="img/DJ.png" alt=""></li>
-        </ul>
-    </section>
-    
-    <!-- FOOTER -->
-
-    <footer class="footer">
-        <div class="footer-top">
-            <nav class="socials">
-                <ul class="flex">
-                    <li class="flex-item-social"><a href=""><img src="img/linkedin.svg" alt=""></a></li>
-                    <li class="flex-item-social"><a href=""><img src="img/youtube.svg" alt=""></a></li>
-                    <li class="flex-item-social"><a href=""><img src="img/twitter.svg" alt=""></a></li>
-                </ul>
-            </nav>
-            <nav class="nav-links-footer">
-                <ul>
-                    <li><a href="">home</a></li>
-                    <li><a href="">blog</a></li>
-                    <li><a href="">about</a></li>
-                    <li><a href="">contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        </section>
         
-        <p class="copyright">
-            <span class="copyright-floating">
-                Created by StephenOluyomi © 2022
-            </span>
-        </p>
-    </footer>
+        <!-- FOOTER -->
 
+        <footer class="footer">
+            <div class="footer-top">
+                <nav class="socials">
+                    <ul class="flex">
+                        <li class="flex-item-social"><a href=""><img src="img/linkedin.svg" alt=""></a></li>
+                        <li class="flex-item-social"><a href=""><img src="img/youtube.svg" alt=""></a></li>
+                        <li class="flex-item-social"><a href=""><img src="img/twitter.svg" alt=""></a></li>
+                    </ul>
+                </nav>
+                <nav class="nav-links-footer">
+                    <ul>
+                        <li><a href="">home</a></li>
+                        <li><a href="">blog</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <p class="copyright">
+                <span class="copyright-floating">
+                    Created by StephenOluyomi © 2022
+                </span>
+            </p>
+        </footer>
+    </div>
 </body>
 </html>
