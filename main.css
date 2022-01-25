@@ -130,6 +130,7 @@ header {
     font-size: 22px;
     font-weight: initial;
     padding: 0.2em 0 ;
+    display: inline-block;
 }
 
 .card {
@@ -225,7 +226,7 @@ footer > * {
     flex-direction: column;
 }
 
-/*        SOCIALS          */
+/*======== SOCIALS ===========*/
 .socials > ul {
     color: var(--clr-text-grey);
     display: flex;
@@ -261,7 +262,7 @@ footer > * {
 }
 
 
-/*  Tablets styles */
+/*======== Tablets styles ========*/
 
 @media only screen and (min-width: 768px) {
 
@@ -312,7 +313,7 @@ footer > * {
     }
 
 
-    /* Social Icons*/
+    /*====== Social Icons ======*/
     .footer-top {
         display: flex;
         flex-direction: row;
@@ -331,15 +332,71 @@ footer > * {
     .nav-links-footer ul li {
         margin-right: 2em;
         font-weight: initial;
-
     }
 
     
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+}
+
+@media only screen and (min-width: 1144px) {
+
+    header, main, .skills-list, footer{
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .grid-container {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .section-title {
+        margin-left: 115px;
+    }
+
+}
 
 
 
 
 
+/*======= 1440px =======*/ 
 
+@media only screen and (min-width: 1400px) {
+    /*.grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }*/
+
+    header, main, .skills-list, footer{
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .grid-container {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .section-title {
+        margin-left: 150px;
+    }
+
+}
+
+/*======= 4k - 2560px =======*/ 
+
+@media only screen and (min-width: 2560px) {
+
+    .section-title {
+        margin-left: 650px;
+    }
+ 
 
 }
