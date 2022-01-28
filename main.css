@@ -75,6 +75,7 @@ body {
 .brand {
     color:var(--clr-primary-blue);
     font-size: 25px;
+    margin-left: 5vw;
 }
 
 .brand::before {
@@ -93,7 +94,7 @@ body {
 .nav-toggle-menu {
     display: flex;
     margin-left: auto;
-    margin-right: 1.25em;
+    margin-right: 5vw;
     padding: 6px 9px;
     border: 0px solid var(--clr-text-grey);
     border-radius: 5px;
@@ -113,16 +114,16 @@ body {
    display:none;
 }
 
-header {
-    display: flex;
+.header-wrapper {
     box-shadow: 0 1px 3px rgb(60 63 66 / 32%),
                 0 4px 12px rgb(60 63 66 / 15%);
-    align-items: center;
-    height: 68px;
+    margin-bottom: 30px;
 }
 
-.brand {
-    margin-left: 1.25em;
+header {
+    display: flex;
+    align-items: center;
+    height: 68px;
 }
 
 .section-title {
@@ -211,9 +212,10 @@ header {
     border-radius: 10px;
 }
 
-footer {
+.footer-wrapper {
     box-shadow: 0 4px 3px rgb(60 63 66 / 15%),
                 0 -1px 12px rgb(60 63 66 / 32%);
+    margin-top: 50px;
 }
 
 footer > * {
@@ -330,13 +332,14 @@ footer > * {
     }
 
     .nav-links-footer ul li {
-        margin-right: 2em;
+        margin-left: 2em;
         font-weight: initial;
     }
 
     
 }
 
+    /*===========================*/
 @media only screen and (min-width: 1024px) {
 
     .grid-container {
