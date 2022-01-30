@@ -322,9 +322,11 @@ footer > * {
     .socials {
         margin-right: auto;
     }
+
     .nav-links-footer  {
         display: flex;
         align-items: center;
+        margin-right: 5vw;
     }
     .nav-links-footer ul {
         display: flex;
@@ -346,7 +348,6 @@ footer > * {
     }
 
     .nav {
-        border: 1px solid red;
         margin-right: 5vw;
     }
 
@@ -355,12 +356,12 @@ footer > * {
 @media only screen and (min-width: 1144px) {
 
     header, main, .skills-list, footer{
-        width: 90vw;
+        width: 70vw;
         margin: 0 auto;
     }
 
     .grid-container {
-        width: 90vw;
+        width: 70vw;
         margin: 0 auto;
     }
 
@@ -369,8 +370,11 @@ footer > * {
     }
 
     .nav {
-        border: 1px solid green;
         margin-right: 0;
+    }
+
+    nav.socials {
+        margin-left: -4vw;
     }
 
     .brand {
@@ -404,6 +408,13 @@ footer > * {
         margin-left: 150px;
     }
 
+    .nav-links-footer {
+        margin-right: 0;
+    }
+
+    .socials ul {
+        margin-left: 3vw;
+    }
 }
 
 /*======= 4k - 2560px =======*/ 
