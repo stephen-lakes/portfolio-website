@@ -187,6 +187,27 @@ header {
                 0 4px 12px rgb(60 63 66 / 15%);
 }
 
+ul.tools {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+ul.tools > h1 {
+    width: 100%;
+    margin-left: 0;
+}
+
+ul.tools > li {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-radius: 10px;
+    padding: 10px;
+}
+
 .skills-list {
     box-shadow: 0 1px 3px rgb(60 63 66 / 32%),
                 0 4px 12px rgb(60 63 66 / 15%);
@@ -381,6 +402,9 @@ footer > * {
         margin-left: 0;
     }
 
+    .nav-links-footer {
+        margin-right: 0;
+    }
 }
 
 
@@ -410,6 +434,7 @@ footer > * {
 
     .nav-links-footer {
         margin-right: 0;
+        border: 1px solid red;
     }
 
     .socials ul {
