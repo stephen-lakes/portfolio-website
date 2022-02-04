@@ -326,6 +326,10 @@ footer > * {
         grid-gap: 10px;
     }
 
+    .section-title {
+        grid-column: span 2;
+    }
+
     .card {
         margin-bottom: 0;
     }
@@ -372,6 +376,10 @@ footer > * {
         margin-right: 5vw;
     }
 
+    .section-title {
+        grid-column: span 3;
+    }
+
 }
 
 @media only screen and (min-width: 1144px) {
@@ -387,7 +395,7 @@ footer > * {
     }
 
     .section-title {
-        margin-left: 115px;
+        grid-column: span 3;
     }
 
     .nav {
@@ -429,12 +437,13 @@ footer > * {
     }
 
     .section-title {
-        margin-left: 150px;
+        /*margin-left: 150px;*/
+        margin: 1px solid green;
+        grid-column: span 3;
     }
 
     .nav-links-footer {
         margin-right: 0;
-        border: 1px solid red;
     }
 
     .socials ul {
@@ -447,7 +456,8 @@ footer > * {
 @media only screen and (min-width: 2560px) {
 
     .section-title {
-        margin-left: 650px;
+        /*margin-left: 650px;*/
+        grid-column: span 3;
     }
  
 }
