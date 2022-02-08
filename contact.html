@@ -4,120 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stephen Oluyomi Personal Website</title>
+    <title>Stephen Oluyomi personal website home page</title>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <!-- HEADERS -->
     <header class="header">
-        <a href="" class="brand">phen</a>
+        <a href="index.html" class="brand">phen</a>
         <nav class="nav">
-            <ul class="nav-links">
+            <ul class="nav-links-top">
                 <li><a href="index.html">home</a></li>
-                <li><a href="#skills-section">skills</a></li>
+                <li><a href="#skills">skills</a></li>
                 <li><a href="#">blog</a></li>
                 <li><a href="about.html">about</a></li>
                 <li><a href="contact.html">contact</a></li>
             </ul>
         </nav>
         <div class="nav-toggle-menu">
-            <img src="img/menu.svg" alt="" id="menu">
+            <img src="img/menu.svg" alt="" class="menu">
         </div>
     </header>
 
-    <!-- Projects section  -->
-    <section class="content flow" id="projetcs">
-        <h1 class="section-title bold">Projects</h1>
-        <div class="flex-container">
-            <div class="flex-item card">
-                <img src="img/MachineLearning.jpg" alt="">
-                <span class="card-title">Machine Learning</span>
-                <p class="card-description">
-                    Machine Learning is one of the most fascinating topics in programming today. It's applications are far reaching and has quickly became an essential attribute for nearly all software projects.
-                    <br><br>
-                    This ongoing course will teach you how to do machine learning in the most practical way possible.                </p>
-                <div class="card-footer">
-                    <span class="live-preview"><a href="">live preview</a></span>
-                    <span class="github"><a href="">github</a></span>
-                </div>
-            </div>
-            <div class="flex-item card">
-                <img src="img/Web-Scraping.jpg" alt="">
-                <p class="card-description">                    
-                    The end goal of this course is to scrape blogs to analyze trending keywords and phrases.
-                    <br><br>
-                    We'll be using Python 3.6, Requests, BeautifulSoup, Asyncio, Pandas, Numpy, and more!
-                </p>
-                <div class="card-footer">
-                    <span class="live-preview"><a href="">live preview</a></span>
-                    <span class="github"><a href="">github</a></span>
-                </div>
-            </div>
-            <div class="flex-item card">
-                <img src="img/shopping-cart.jpg" alt="" class="cart">
-                <p class="card-description">
-                    This project uses python on the backend and react on the frontend.
-                    <br>
-                    React router is used to manage the urls and links.
-                    <br>
-                    Uses Stripe for payment processing.
-                <div class="card-footer">
-                    <span class="live-preview"><a href="">live preview</a></span>
-                    <span class="github"><a href="">github</a></span>
-                </div>
-            </div>
-            <div class="flex-item card">
-                <img src="img/video-chatting-website.jpg" alt="">
-                <p class="card-description">
-                    This project uses Django REST Framework on the backend and React on the frontend.
-        Features an innuilt chat section and virtual background for the webcam.
-                <div class="card-footer">
-                    <span class="live-preview"><a href="">live preview</a></span>
-                    <span class="github"><a href="">github</a></span>
-                </div>
-            </div>
-        </div>
-    </section>
+    <main style="min-height: 300px;">
+        <h1 style="text-align: center;">Contact page</h1>
+    </main>
 
-    <!-- SKILLS -->
-
-    <section class="content flow" id="skills-section">
-        <h1 class="section-title bold">Tools and Technologies</h1>
-        <ul class="skills-list">
-            <li class="flex-item"><img src="img/py.jfif" alt=""></li>
-            <li class="flex-item"><img src="img/JS.png" alt=""></li>
-            <li class="flex-item"><img src="img/PSQL.png" alt=""></li>
-            <li class="flex-item"><img src="img/REACT.png" alt=""></li>
-            <li class="flex-item"><img src="img/HTML.png" alt=""></li>
-            <li class="flex-item"><img src="img/CSS.png" alt=""></li>
-            <li class="flex-item"><img src="img/DJ.png" alt=""></li>
-        </ul>
-    </section>
+   
     
     <!-- FOOTER -->
 
-    <footer class="flow">
-        <nav class="socials">
-            <ul class="flex">
-                <li><a href=""><img src="img/linkedin.svg" alt=""></a></li>
-                <li><a href=""><img src="img/youtube.svg" alt=""></a></li>
-                <li><a href=""><img src="img/twitter.svg" alt=""></a></li>
-            </ul>
-        </nav>
-        <nav class="nav-links-footer bold">
-            <ul>
-                <li><a href="">home</a></li>
-                <li><a href="">blog</a></li>
-                <li><a href="">about</a></li>
-                <li><a href="">contact</a></li>
-            </ul>
-        </nav>
+    <footer class="footer">
+        <div class="footer-top">
+            <nav class="socials">
+                <ul class="flex">
+                    <li class="flex-item-social"><a href=""><img src="img/linkedin.svg" alt=""></a></li>
+                    <li class="flex-item-social"><a href=""><img src="img/youtube.svg" alt=""></a></li>
+                    <li class="flex-item-social"><a href=""><img src="img/twitter.svg" alt=""></a></li>
+                </ul>
+            </nav>
+            <nav class="nav-links-footer">
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">blog</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        
         <p class="copyright">
             <span class="copyright-floating">
                 Created by StephenOluyomi © 2022
             </span>
-            
-        </p]>
+        </p>
     </footer>
 
 </body>
