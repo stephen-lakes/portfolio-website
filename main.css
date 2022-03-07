@@ -194,8 +194,6 @@ header {
     background-color: var(--clr-primary-orange);
     border-radius: 30px;
     padding: 0.5em 1em;
-    margin-right: 10px;
-
 }
 
 .card-footer .live-preview:hover {
@@ -312,11 +310,12 @@ footer > * {
 }
 
 /*====== Mobile buttons fix ======*/
+
 @media only screen and (max-width: 280px) {
     .github, .live-preview {
         display: block;
         text-align: center;
-        margin:  1em 0;
+        margin:  0.5em 0;
     }
 
 }
