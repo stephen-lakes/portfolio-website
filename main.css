@@ -115,6 +115,7 @@ body {
 }
 
 /* responsive navigation  */
+
 .nav.responsive {
     position: absolute;
     top: 3.5em;
@@ -138,8 +139,6 @@ body {
 }
 
 /* responsive navigation */
-
-
 
 
 .header-wrapper {
