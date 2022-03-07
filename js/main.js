@@ -1,10 +1,10 @@
 "use strict";
 
 function myFunction(){
-    const x = document.querySelector(".nav");
-    if (x.className === "nav") {
-        x.className = x.className + " responsive"
+    const navClass = document.querySelector(".nav");
+    if (navClass.className === "nav") {
+        navClass.className = navClass.className + " responsive"
     }else {
-        x.className = "nav"
+        navClass.className = "nav"
     }
 };
