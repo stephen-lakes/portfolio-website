@@ -114,6 +114,34 @@ body {
    display:none;
 }
 
+/* responsive navigation  */
+.nav.responsive {
+    position: absolute;
+    top: 3.5em;
+    left: 0;
+    right: 0;
+    background: #2AA5C0;
+    text-align: center;
+    height: 100%;
+}
+.nav.responsive ul li {
+    padding: 10px;
+    margin: 10px;
+}
+
+.nav.responsive ul li a {
+    color: #fff;
+}
+
+.nav.responsive {
+    display: block;
+}
+
+/* responsive navigation */
+
+
+
+
 .header-wrapper {
     box-shadow: 0 1px 3px rgb(60 63 66 / 32%),
                 0 4px 12px rgb(60 63 66 / 15%);
@@ -328,6 +356,7 @@ footer > * {
 
     .section-title {
         grid-column: span 2;
+        border: 1px solid red;
     }
 
     .card {
