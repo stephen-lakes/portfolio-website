@@ -283,17 +283,11 @@ footer > * {
 .socials > ul {
     color: var(--clr-text-grey);
     display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 2em 0;
-}
-
-.flex-item-social:nth-last-of-type(3) {
-    margin-left: 2em;
-}
-
-.socials > ul > li > a {
-    margin-right: 3em;
 }
 
 .nav-links-footer > ul > li a {
@@ -389,8 +383,16 @@ footer > * {
     }
     .socials {
         margin-right: auto;
+        margin-left: 5vw;
+        border:  1px solid rebeccapurple;
     }
-
+    .flex-item-social:nth-last-of-type(3) {
+        margin-left: 0em;
+    }
+    
+    .socials > ul > li > a:last-child {
+        margin-right: 3em;
+    }
     .nav-links-footer  {
         display: flex;
         align-items: center;
