@@ -297,9 +297,9 @@ footer > * {
 @media only screen and (max-width: 425px) {
     .nav.responsive {
         position: fixed;
-        top: 0em;
+        top: 0;
         left: 0;
-        right: 0;
+        right: 30%;
         bottom: 0;
         background: var(--clr-primary-blue);
         text-align: center;
@@ -320,6 +320,7 @@ footer > * {
     .nav.responsive {
         display: block;
     }
+
 }
 
 /* responsive navigation */
