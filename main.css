@@ -296,13 +296,17 @@ footer > * {
 /* responsive navigation  */
 @media only screen and (max-width: 425px) {
     .nav.responsive {
-        position: absolute;
-        top: 3.5em;
+        position: fixed;
+        top: 0em;
         left: 0;
         right: 0;
-        background: #2AA5C0;
+        bottom: 0;
+        background: var(--clr-primary-blue);
         text-align: center;
         height: 100%;
+        z-index: 1000;
+        opacity: 0.9;
+        transition: .5s;
     }
     .nav.responsive ul li {
         padding: 10px;
